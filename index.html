@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Vinícius Hartmann, estudante de Engenharia de Software na Unicesumar. Projetos, habilidades e contato.">
+    <meta name="author" content="Vinícius Hartmann">
+    <meta name="keywords" content="portfólio, desenvolvedor, engenharia de software, front-end, html, css, javascript">
+    <title>Vinícius Hartmann | Portfólio - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">VH<span>.dev</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu de navegação">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li>
+                    <button class="theme-btn" id="themeBtn" aria-label="Alternar modo claro e escuro">🌙</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-text">
+                <p class="hero-greeting">Olá, eu sou</p>
+                <h1>Vinícius Hartmann</h1>
+                <h2>Desenvolvedor Front-End Júnior</h2>
+                <p class="hero-desc">
+                    Procurando um desenvolvedor comum ou alguém empenhado em criar
+                    experiências digitais memoráveis? Sou desenvolvedor Front-End Júnior
+                    e acadêmico de Engenharia de Software na Unicesumar. Este portfólio
+                    reúne meus projetos e as tecnologias com que trabalho.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projetos.html" class="btn btn-primary">Ver Projetos</a>
+                    <a href="contato.html" class="btn btn-secondary">Fale Comigo</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="img/perfil.jpg" alt="Foto de Vinícius Hartmann" class="profile-img" width="260" height="340">
+            </div>
+        </section>
+
+        <section class="features container">
+            <h2 class="section-title">O que você encontra aqui</h2>
+            <div class="cards">
+                <article class="card">
+                    <span class="card-icon">👨‍💻</span>
+                    <h3>Sobre Mim</h3>
+                    <p>Minha formação, trajetória na área de desenvolvimento e as tecnologias com que trabalho.</p>
+                    <a href="sobre.html" class="card-link">Conhecer &rarr;</a>
+                </article>
+                <article class="card">
+                    <span class="card-icon">📁</span>
+                    <h3>Projetos</h3>
+                    <p>Projetos reais publicados no meu GitHub, com as tecnologias utilizadas em cada um.</p>
+                    <a href="projetos.html" class="card-link">Explorar &rarr;</a>
+                </article>
+                <article class="card">
+                    <span class="card-icon">✉️</span>
+                    <h3>Contato</h3>
+                    <p>Formulário para entrar em contato comigo sobre oportunidades, dúvidas ou parcerias.</p>
+                    <a href="contato.html" class="card-link">Enviar mensagem &rarr;</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vinícius Hartmann — Desenvolvido para a disciplina de Programação Front-End (Unicesumar).</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página">&uarr;</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

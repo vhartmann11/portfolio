@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos de Vinícius Hartmann: aplicações web em JavaScript, TypeScript e React publicadas no GitHub.">
+    <meta name="author" content="Vinícius Hartmann">
+    <title>Projetos | Vinícius Hartmann - Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">VH<span>.dev</span></a>
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu de navegação">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="projetos.html" class="active">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><button class="theme-btn" id="themeBtn" aria-label="Alternar modo claro e escuro">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page container">
+            <h1 class="page-title">Meus Projetos</h1>
+            <p class="page-subtitle">
+                Projetos reais que desenvolvi e mantenho publicados no meu
+                <a href="https://github.com/vhartmann11" target="_blank" rel="noopener">GitHub</a>,
+                com as tecnologias utilizadas em cada um.
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="img/projeto-portfolio.jpg" alt="Página inicial deste portfólio" class="project-img">
+                    <h3>Portfólio Pessoal</h3>
+                    <p>
+                        Este próprio website: portfólio responsivo com 4 páginas, formulário
+                        com validação, modo escuro e menu adaptado para dispositivos móveis.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/portfolio" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/projeto-hartmanndev.jpg" alt="Tela de abertura do site HARTMANN.dev" class="project-img">
+                    <h3>HARTMANN.dev</h3>
+                    <p>
+                        Meu portfólio principal como desenvolvedor: uma aplicação em React
+                        com animações, tela de carregamento personalizada e seções de
+                        habilidades, projetos e contato.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">ReactJS</span>
+                        <span class="tag">SCSS</span>
+                        <span class="tag">Motion</span>
+                    </p>
+                    <a href="https://vhartdev.vercel.app/" target="_blank" rel="noopener" class="card-link">Ver projeto &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/projeto-syncwave.jpg" alt="Página inicial do site SyncWave" class="project-img">
+                    <h3>SyncWave</h3>
+                    <p>
+                        Um site dedicado a criar soluções inovadoras e de alta qualidade,
+                        proporcionando experiências únicas e o melhor em branding para a
+                        indústria musical.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">ReactJS</span>
+                        <span class="tag">SCSS</span>
+                        <span class="tag">Motion</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/syncwave-main" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                    <a href="https://projectsyncwave.vercel.app/" target="_blank" rel="noopener" class="card-link">Ver projeto &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/projeto-comforthome.jpg" alt="Página de categorias do e-commerce Comfort Home" class="project-img">
+                    <h3>Comfort Home</h3>
+                    <p>
+                        Projeto de um e-commerce minimalista onde móveis, acessórios,
+                        produtos de skin care e eletrônicos de alta qualidade se unem para
+                        transformar sua casa e seu bem-estar.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">ReactJS</span>
+                        <span class="tag">SCSS</span>
+                        <span class="tag">ContextAPI</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/simple-ecommerce-main" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                    <a href="https://comforthome-ecommerce.vercel.app/" target="_blank" rel="noopener" class="card-link">Ver projeto &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/projeto-swiftgo.jpg" alt="Página inicial da landing page Swift.GO" class="project-img">
+                    <h3>Swift.GO</h3>
+                    <p>
+                        Landing page de um projeto para encontrar seu carro ideal e
+                        trabalhar como motorista de aplicativo, oferecendo automóveis
+                        confiáveis e acessíveis para garantir uma renda extra.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">ReactJS</span>
+                        <span class="tag">Hooks</span>
+                        <span class="tag">Motion</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/swiftgo-main" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                    <a href="https://swiftgo.vercel.app/" target="_blank" rel="noopener" class="card-link">Ver projeto &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <div class="project-cover cover-1">🎯</div>
+                    <h3>Jogo da Forca</h3>
+                    <p>
+                        Jogo da forca interativo desenvolvido com React e TypeScript,
+                        utilizando o Vite. Trabalha componentização, estados e a
+                        tipagem estática do TypeScript.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Vite</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/jogo-da-forca" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <div class="project-cover cover-2">🎮</div>
+                    <h3>API Fetch Games</h3>
+                    <p>
+                        Aplicação em React com TypeScript que consome uma API de jogos,
+                        exibindo os dados de forma dinâmica na tela — um exercício prático
+                        de requisições HTTP e renderização de listas.
+                    </p>
+                    <p class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">API REST</span>
+                    </p>
+                    <a href="https://github.com/vhartmann11/apifetch-games-ts" target="_blank" rel="noopener" class="card-link">Código &rarr;</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vinícius Hartmann — Desenvolvido para a disciplina de Programação Front-End (Unicesumar).</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página">&uarr;</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
